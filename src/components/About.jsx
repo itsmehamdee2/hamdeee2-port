@@ -5,7 +5,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="w-full relative bg-[#4a4080] py-20  text-white h-full"
+      className="w-full relative bg-[#6441a5] py-20  text-white h-full"
     >
       <div>
         <div className="w-full relative max-md:h-5/12">
@@ -52,7 +52,7 @@ const About = () => {
                 {about.map((ab, i) => (
                   <div
                     key={i}
-                    className=" container mx-auto text-center shadow-[5px_5px_0_white]  bg-[#4a4080] hover:scale-100 scale-98 transform max-md:scale-95 max-md:hover:scale-96    transition-all duration-300  border border-white py-4 my-2 overflow-hidden relative rounded-2xl"
+                    className=" container mx-auto text-center shadow-[5px_5px_0_white]   bg-[#6441a5] hover:scale-100 scale-98 transform max-md:scale-95 max-md:hover:scale-96    transition-all duration-300  border border-white py-4 my-2 overflow-hidden relative rounded-2xl"
                   >
                     <div className="flex flex-row">
                       <div className="mx-2  justify-center border-r items-center flex flex-row">

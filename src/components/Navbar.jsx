@@ -32,13 +32,13 @@ function Navbar() {
           </a>
 
           <a
-            href="#projects"
+            href="#project"
             className="cursor-pointer  text-[#a0a0c0] hover:scale-110 transition-all duration-300 w-15 h-15 flex items-center justify-center "
           >
             <Briefcase />
           </a>
           <a
-            href=""
+            href="#contact"
             className="cursor-pointer text-[#a0a0c0]  hover:scale-110 transition-all duration-300 w-15 h-15 flex items-center justify-center "
           >
             <Clipboard />

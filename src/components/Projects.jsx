@@ -3,10 +3,10 @@ import React from "react";
 import { projects } from "../../data";
 function Projects() {
   return (
-    <section id="#project" className="bg-[#4a4080] text-[#4a4080]">
+    <section id="project" className="bg-[#6441a5] text-[#6441a5]">
       <div className="container py-10 relative mx-auto">
         <div className="flex items-center pt-20 justify-center">
-          <h2 className="text-4xl text-violet-100 md:text-5xl uppercase">
+          <h2 className="text-3xl text-violet-100 md:text-5xl uppercase">
             Featured Projects
           </h2>
         </div>
@@ -36,7 +36,7 @@ function Projects() {
                     {project.tags.map((tag) => (
                       <span
                         key={tag}
-                        className="px-2 py-1 border bg-slate-100 shadow-[3px_3px_0_#4a4080]  text-xs font-medium rounded-full bg-secondary/90 text-secondary-foreground"
+                        className="px-2 py-1 border bg-violet-100 shadow-[3px_3px_0_#6441a5]  text-xs font-medium rounded-full bg-secondary/90 text-secondary-foreground"
                       >
                         {" "}
                         {tag}
@@ -48,7 +48,7 @@ function Projects() {
                     <h3 className="text-xl text-muted uppercase font-semibold mb-1">
                       {project.title}
                     </h3>
-                    <p className="text-slate-100 text-justify text-sm mb-4">
+                    <p className="text-viollet-100 text-justify text-sm mb-4">
                       {project.description}
                     </p>
                     <div className="flex justify-between items-center">
@@ -56,7 +56,7 @@ function Projects() {
                         <a
                           href={project.demoUrl}
                           target="blank"
-                          className="px-2 py-1 border flex gap-1 items-center bg-slate-100 shadow-[3px_3px_0_#4a4080]  text-xs font-medium rounded-full bg-secondary/90 text-secondary-foreground"
+                          className="px-2 py-1 border flex gap-1 items-center bg-violet-100 shadow-[3px_3px_0_#6441a5]  text-xs font-medium rounded-full bg-secondary/90 text-secondary-foreground"
                         >
                           <Link2 size={20} />
                           VIEW THE LINK
@@ -64,7 +64,7 @@ function Projects() {
                         <a
                           href={project.githubUrl}
                           target="blank"
-                          className="px-2 py-1  flex gap-1 items-center bg-violet-100 shadow-[3px_3px_0_#4a4080]  text-xs font-medium rounded-full bg-secondary/90 text-secondary-foreground"
+                          className="px-2 py-1  flex gap-1 items-center bg-violet-100 shadow-[3px_3px_0_#6441a5]  text-xs font-medium rounded-full bg-secondary/90 text-secondary-foreground"
                         >
                           <Github size={20} />
                           VIEW ON MY GITHUB

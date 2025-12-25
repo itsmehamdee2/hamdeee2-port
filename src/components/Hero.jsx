@@ -19,7 +19,7 @@ const Hero = () => {
   return (
     <section
       id={"#"}
-      className="relative min-h-screen overflow-hidden pt-20 lg:pt-36 text-white bg-slate-100 "
+      className="relative min-h-screen overflow-hidden pt-20 lg:pt-36 text-white bg-violet-100 "
     >
       <motion.div
         className="fixed top-0 left-0 h-[5px] bg-red-400"
@@ -32,7 +32,7 @@ const Hero = () => {
             initial={{ x: "120%" }}
             animate={{ x: "0" }}
             transition={{ duration: 0.8 }}
-            className="md:absolute md:scale-95 md:top-10 md:right-20 scale-60  absolute top-90 -right-25 "
+            className="md:absolute md:scale-95 md:top-10 md:right-20 scale-50  absolute top-80 -right-37 "
           >
             <SyntaxHighlighter
               language="javascript"
@@ -74,7 +74,7 @@ const Hero = () => {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 1.4, delay: 0.3 }}
-              className="text-6xl pt-10 mt-2 md:mt-10 text-[#4a4080] max-md:text-2xl tracking-tighter"
+              className="text-6xl pt-10 mt-2 md:mt-10 text-[#6441a5] max-md:text-2xl tracking-tighter"
             >
               <TextType
                 className=" tracking-tighter  max-md:text-2xl"
@@ -89,7 +89,7 @@ const Hero = () => {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 1.4, delay: 0.5 }}
-              className="max-md:text-5xl  text-[#4a4080] tracking-tighter text-7xl"
+              className="md:text-5xl  text-[#6441a5] tracking-tighter text-5xl"
             >
               {" "}
               AHMED{" "}
@@ -98,7 +98,7 @@ const Hero = () => {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 1.4, delay: 0.5 }}
-              className="text-transparent   tracking-tighter max-md:text-6xl px-2 font-semibold text-8xl bg-clip-text bg-linear-to-r from-violet-500 to-violet-400"
+              className="text-transparent   tracking-tighter max-md:text-5xl px-2 font-semibold text-8xl bg-clip-text bg-linear-to-r from-violet-500 to-violet-400"
             >
               HAMDEE
             </motion.span>
@@ -109,7 +109,7 @@ const Hero = () => {
             transition={{ duration: 1.4, delay: 0.7 }}
             className="flex justify-center mx-15  md:justify-start items-center"
           >
-            <span className=" max-md:text-5xl text-[#4a4080] tracking-tighter  font-semibold text-8xl">
+            <span className=" max-md:text-5xl text-[#6441a5] tracking-tighter  font-semibold text-8xl">
               ALONTO
             </span>
           </motion.div>
@@ -117,12 +117,12 @@ const Hero = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1.4, delay: 1.1 }}
-            className="flex justify-center mx-15 text-[#4a4080]  md:justify-start items-center"
+            className="flex justify-center mx-15 text-[#6441a5]  md:justify-start items-center"
           >
-            <h1 className="font-extralight text-[#4a4080] max-md:text-xl text-lg">
+            <h1 className="font-extralight text-[#6441a5] md:text-xl text-sm">
               Your{" "}
               <TextType
-                className="pt-3 text-xl uppercase  text-transparent bg-clip-text max-md:text-xl bg-linear-to-r from-violet-400 to-violet-600"
+                className="pt-3 text-sm uppercase  text-transparent bg-clip-text md:text-xl bg-linear-to-r from-violet-400 to-violet-600"
                 text={[
                   "Coder Enthusiast",
                   "Frontend Developer",
@@ -137,7 +137,7 @@ const Hero = () => {
             transition={{ duration: 1.4, delay: 1.2 }}
             className="flex justify-center mx-15  md:justify-start items-center"
           >
-            <p className="font-extralight text-[#4a4080] max-md:text-sm text-md">
+            <p className="font-extralight text-[#6441a5] max-md:text-sm text-md">
               Find me on
             </p>
           </motion.div>
@@ -186,20 +186,20 @@ const Hero = () => {
             transition={{ duration: 1.4, delay: 2.1 }}
             className="flex justify-center mx-15 md:justify-start relative py-2 max-md:py-1 gap-4 items-center"
           >
-            <button className="relative  inline-flex cursor-pointer h-12 active:scale-95 hover:scale-105 shadow-[5px_5px_0_#4a4080]   duration-300 transistion overflow-hidden rounded-lg p-px focus:outline-none">
-              <span className="inline-flex border h-full w-full cursor-pointer items-center justify-center rounded-lg   bg-slate-100 px-7 text-sm font-medium text-[#4a4080] backdrop-blur-3xl gap-2 undefined">
+            <button className="relative  inline-flex cursor-pointer h-12 active:scale-95 hover:scale-105 shadow-[5px_5px_0_#6441a5]   duration-300 transistion overflow-hidden rounded-lg p-px focus:outline-none">
+              <span className="inline-flex border h-full w-full cursor-pointer items-center justify-center rounded-lg   bg-slate-100 px-7 text-sm font-medium text-[#6441a5] backdrop-blur-3xl gap-2 undefined">
                 Download CV
               </span>
             </button>
-            <button className="relative inline-flex  cursor-pointer h-12 active:scale-95 shadow-[5px_5px_0_#4a4080]  hover:scale-105 duration-300 transistion overflow-hidden rounded-lg p-px focus:outline-none">
-              <span className="inline-flex h-full w-full items-center justify-center outline rounded-lg  bg-slate-950/30 px-7 text-sm font-medium text-[#4a4080] backdrop-blur-3xl gap-2 undefined">
+            <button className="relative inline-flex  cursor-pointer h-12 active:scale-95 shadow-[5px_5px_0_#6441a5]  hover:scale-105 duration-300 transistion overflow-hidden rounded-lg p-px focus:outline-none">
+              <span className="inline-flex h-full w-full items-center justify-center outline rounded-lg  bg-slate-950/30 px-7 text-sm font-medium text-[#6441a5] backdrop-blur-3xl gap-2 undefined">
                 <a href="#skills">View my work</a>
               </span>
             </button>
           </motion.div>
         </div>
       </div>
-      <div className="flex items-center  md:justify-end justify-center  px-15 mx-15-my-7 max-md:my-0 max-md:justify-center max-md:py-6 animate-bounce">
+      <div className="flex items-center  md:justify-end justify-center text-violet-500  px-15 mx-15-mt-10 md:my-0 max-md:justify-center max-md:py-6 animate-bounce">
         <ArrowDown className="" />
         <p>Scroll Down</p>
       </div>

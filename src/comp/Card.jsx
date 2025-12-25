@@ -5,7 +5,7 @@ function Card({ item }) {
     <div className="grid grid-cols-3 relative container mx-auto pt-3 md:pt-15 gap-3 max-sm:grid-cols-1 max:md-grid-cols-2 justify-center  items-center">
       {item.map((skill, key) => (
         <div
-          className="p-4  rounded-lg shadows  hover:transition-transform duration-300 border max-md:scale-95 max-md:shadow-[7px_7px_0_#4a4080]  hover:scale-105   bg-slate-950/30 text-[#4a4080] hover:shadow-[7px_7px_0_#4a4080]  shadow-[7px_7px_0_#4a4080] "
+          className="p-4  rounded-lg shadows  hover:transition-transform duration-300 border max-md:scale-95 max-md:shadow-[7px_7px_0_#6441a5]  hover:scale-105   bg-violet-100 text-[#6441a5] hover:shadow-[7px_7px_0_#4a4080]  shadow-[7px_7px_0_#4a4080] "
           key={key}
         >
           <div>

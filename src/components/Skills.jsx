@@ -24,14 +24,14 @@ const Skills = () => {
         className="fixed  top-0 left-0 h-[5px] bg-red-800"
         style={{ width: lineWidth }}
       />
-      <div className="relatitve min-h-screen overflow-hidden  bg-slate-100 text-black">
+      <div className="relatitve min-h-screen overflow-hidden  bg-violet-100 text-[#6441a5]">
         <div className="container mx-auto flex">
           <div className=" text-center pt-10 h-auto w-full">
             <div className="flex flex-row gap-2 items-center justify-center">
-              <h1 className="text-6xl text-[#4a4080] relative"> SKILLS</h1>
+              <h1 className="text-6xl text-[#6441a5] relative"> SKILLS</h1>
             </div>
 
-            <div className="flex scale-80 md:scale-100 gap-2 items-center justify-center pt-4">
+            <div className="flex scale-62 md:scale-100 gap-2 items-center justify-center pt-4">
               {/* {menuItems.map((val) => (
                 <Button onClick={() => filterItems("")}> {val}</Button>
               ))} */}
