@@ -5,12 +5,12 @@ const About = () => {
   return (
     <section
       id="about"
-      className="w-full relative bg-[#6441a5] py-20  text-white h-full"
+      className="w-full relative bg-violet-100 py-20  text-white h-full"
     >
       <div>
         <div className="w-full relative max-md:h-5/12">
           <div className="flex justify-center items-center">
-            <h2 className="text-6xl ">ABOUT ME</h2>
+            <h2 className="text-6xl md:px-10 md:flex-1">ABOUT ME</h2>
           </div>
 
           <div className="flex relative justify-center items-center  container py-10 mx-auto">

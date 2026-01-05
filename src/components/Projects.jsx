@@ -3,15 +3,15 @@ import React from "react";
 import { projects } from "../../data";
 function Projects() {
   return (
-    <section id="project" className="bg-[#6441a5] text-[#6441a5]">
+    <section id="project" className="bg-violet-100 text-[#6441a5]">
       <div className="container py-10 relative mx-auto">
         <div className="flex items-center pt-20 justify-center">
-          <h2 className="text-3xl text-violet-100 md:text-5xl uppercase">
+          <h2 className="text-3xl md:flex-1 md:text-left md:px-10  md:text-5xl uppercase">
             Featured Projects
           </h2>
         </div>
         <div className="flex items-center my-7 justify-center">
-          <p className="text-lg  text-violet-100  pt-20 text-justify mx-4 font-light">
+          <p className="text-lg   pt-20 text-justify mx-4 font-light">
             Here are some of my projects that i'ved done while honing my skills
             and knowledge in Coding, Each project was was carefully crafted with
             attention and details and user experience

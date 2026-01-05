@@ -35,13 +35,15 @@ export const mySkills = [
   { id: 18, name: "ARCJET", level: 0, category: "others" },
   { id: 19, name: "NEON", level: 0, category: "others" },
   { id: 20, name: "PRISMA", level: 0, category: "others" },
+  { id: 21, name: "CANVA", level: 0, category: "others" },
+  { id: 21, name: "CAPCUT", level: 0, category: "others" },
 ];
 
 export const about = [
   {
     title: "WEB DEVELOPER",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elitMolestiae voluptatum ullam atque quis dolorem corporis cumque architecto assumenda. Vero cum necessitatibus voluptatem optio. Ad officiis similique assumenda officia quisquam optio",
+      "I'm a passionate web developer focused on modern design and modern tech stacks. I love building responsive, visually appealing and high-performance websites that deliver great user experience",
   },
   { title: "ACHIEVEMENTS", description: "CS PROFESSIONAL PASSER" },
   {
