@@ -10,16 +10,18 @@ const About = () => {
       <div>
         <div className="w-full relative max-md:h-5/12">
           <div className="flex justify-center items-center">
-            <h2 className="text-6xl md:px-10 md:flex-1">ABOUT ME</h2>
+            <h2 className="text-6xl text-[#6441a5] md:px-10 md:flex-1">
+              ABOUT ME
+            </h2>
           </div>
 
-          <div className="flex relative justify-center items-center  container py-10 mx-auto">
+          <div className="flex relative  justify-center items-center  container py-10 mx-auto">
             <div className="grid relative grid-cols-2 py-10 items-center max-md:grid-cols-1">
-              <div className="py-10 h-auto mx-6  text-center overflow-hidden relative rounded-2xl">
+              <div className="py-10 h-auto text-[#6441a5] mx-6  text-center overflow-hidden relative rounded-2xl">
                 <p className="text-md  text-justify  px-4">
-                  "As an enthusiast and aspiring to be a fullstack web
-                  developer. I,{" "}
-                  <span className="text-lg font-bold uppercase text-transparent bg-clip-text bg-linear-to-r from-violet-400 to-violet-300">
+                  "As an IT officer enthusiast and aspiring to be a fullstack
+                  web developer. I,{" "}
+                  <span className="text-lg font-bold uppercase text-transparent bg-clip-text bg-linear-to-r from-violet-600 to-violet-400">
                     {" "}
                     Ahmed Hamdee Alonto{" "}
                   </span>

@@ -89,9 +89,9 @@ const Hero = () => {
                 <TextType
                   className="pt-3 text-sm uppercase  text-transparent bg-clip-text md:text-xl bg-linear-to-r from-violet-400 to-violet-600"
                   text={[
-                    "Coder Enthusiast",
+                    "IT / Coder Enthusiast",
                     "Frontend Developer",
-                    "Fullstack Web Developer",
+                    "IT OFFICER",
                   ]}
                 />
               </h1>
@@ -149,7 +149,7 @@ const Hero = () => {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 1.4, delay: 2.1 }}
-              className="flex justify-center mx-15 md:justify-start relative py-2 max-md:py-1 gap-4 items-center"
+              className="flex justify-center  mx-15 md:justify-start relative py-2 max-md:py-1 gap-4 items-center"
             >
               <button className="relative  inline-flex cursor-pointer h-12 active:scale-95 hover:scale-105 shadow-[5px_5px_0_#6441a5]   duration-300 transistion overflow-hidden rounded-lg p-px focus:outline-none">
                 <span className="inline-flex border h-full w-full cursor-pointer items-center justify-center rounded-lg   bg-slate-100 px-7 text-sm font-medium text-[#6441a5] backdrop-blur-3xl gap-2 undefined">
@@ -160,7 +160,7 @@ const Hero = () => {
               </button>
               <button className="relative inline-flex  cursor-pointer h-12 active:scale-95 shadow-[5px_5px_0_#6441a5]  hover:scale-105 duration-300 transistion overflow-hidden rounded-lg p-px focus:outline-none">
                 <span className="inline-flex h-full w-full border items-center justify-center outline rounded-lg  bg-slate-950/30 px-7 text-sm font-medium text-[#6441a5] backdrop-blur-3xl gap-2 undefined">
-                  <a href="#skills">View my work</a>
+                  <a href="#project">View my work</a>
                 </span>
               </button>
             </motion.div>

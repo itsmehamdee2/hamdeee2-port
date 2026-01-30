@@ -34,7 +34,7 @@ const Skills = () => {
               </h1>
             </div>
 
-            <div className="flex scale-62 md:scale-100 gap-2 items-center justify-center pt-4">
+            <div className="flex scale-50 md:scale-100 gap-2 items-center justify-center pt-4">
               {/* {menuItems.map((val) => (
                 <Button onClick={() => filterItems("")}> {val}</Button>
               ))} */}
@@ -47,9 +47,13 @@ const Skills = () => {
               <button type="button " onClick={() => filterItems("tools")}>
                 <Button> TOOLS</Button>
               </button>
+              <button type="button " onClick={() => filterItems("it-services")}>
+                <Button> IT SERVICES</Button>
+              </button>
               <button type="button " onClick={() => filterItems("others")}>
                 <Button> OTHERS</Button>
               </button>
+
               <button type="button " onClick={() => setItem(mySkills)}>
                 <Button> All</Button>
               </button>

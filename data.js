@@ -35,22 +35,63 @@ export const mySkills = [
   { id: 18, name: "ARCJET", level: 0, category: "others" },
   { id: 19, name: "NEON", level: 0, category: "others" },
   { id: 20, name: "PRISMA", level: 0, category: "others" },
-  { id: 21, name: "CANVA", level: 0, category: "others" },
-  { id: 21, name: "CAPCUT", level: 0, category: "others" },
+  { id: 21, name: "CANVA", level: 0, category: "tools" },
+  { id: 21, name: "CAPCUT", level: 0, category: "tools" },
+  { id: 22, name: "CCTV INSTALLING", level: 0, category: "it-services" },
+  {
+    id: 22,
+    name: "HARDWARE/SOFTWARE TROUBLESHOOTING ",
+    level: 0,
+    category: "it-services",
+  },
+  {
+    id: 22,
+    name: "HARDWARE/SOFTWARE INSTALLING",
+    level: 0,
+    category: "it-services",
+  },
+  {
+    id: 22,
+    name: "NETWORK CONFIGURATION BASIC",
+    level: 0,
+    category: "it-services",
+  },
+  {
+    id: 22,
+    name: "BASIC CYBERSECURITY",
+    level: 0,
+    category: "others",
+  },
+  {
+    id: 22,
+    name: "ADMISTRATIVE TASKS",
+    level: 0,
+    category: "others",
+  },
 ];
 
 export const about = [
   {
-    title: "WEB DEVELOPER",
-    description:
-      "I'm a passionate web developer focused on modern design and modern tech stacks. I love building responsive, visually appealing and high-performance websites that deliver great user experience",
+    title: "TRAININGS",
+    description: "BASIC CYBERSECURITY",
+    description1: "INTERNSHIP (PROJECT MANAGER) ",
+    description2: "GENDER SENSIVITY TRAINING  ",
+    description3:
+      "FABTRAIN: A SERIES OF TRAININGS FOR INNOVATION AND INVENTION   ",
+    description4:
+      "FABTRAIN: RA 6713 CODE OF CONDUCT AND ETHICAL STANDARDS FOR  GOVERNMENT OFFICIALS AND  EMPLOYEES (INSET TRAININGS)   ",
   },
-  { title: "ACHIEVEMENTS", description: "CS PROFESSIONAL PASSER" },
+  {
+    title: "ACHIEVEMENTS",
+    description: "CIVIL SERVICE PROFESSIONAL PASSER",
+    description1: "INTERNSHIP (PROJECT MANAGER)",
+  },
+
   {
     title: "WORK EXPERIENCE",
     description: "2018-2024:ADMIN CLERK @ PSHS-CMC LANAO DEL NORTE",
     description1: "2017-2018: IT SUPPORT @ BI-IMMIGRATION CEBU DISTRICT",
-    description2: "2019-Present: Gig/Freelance/Partime WEB DEVELOPER",
+    description2: "2019-Present: Gig/Freelance (WEB DEVELOPER / IT SERVICES)",
   },
 ];
 
@@ -74,7 +115,7 @@ export const projects = [
       "clerk",
       "TanstackQuery",
     ],
-    demoUrl: "https://react-sample-landingsaaspage-zcs6.vercel.app/",
+    demoUrl: "/",
     githubUrl: "https://github.com/itsmehamdee2",
   },
   {

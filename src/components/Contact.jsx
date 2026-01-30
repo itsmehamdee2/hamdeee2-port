@@ -1,4 +1,12 @@
-import { Github, Instagram, Linkedin, Locate, Mail, Phone } from "lucide-react";
+import {
+  Edit,
+  Github,
+  Instagram,
+  Linkedin,
+  Locate,
+  Mail,
+  Phone,
+} from "lucide-react";
 
 const Contact = () => {
   return (
@@ -63,6 +71,17 @@ const Contact = () => {
                   <h4 className=" text-left font-medium">Location</h4>
                   <a className="text-muted-foreground text-sm hover:text-primary transition-colors">
                     Philippines
+                  </a>
+                </div>
+              </div>
+              <div className="flex items-start space-x-4">
+                <div className="p-3 rounded-full bg-primary/10">
+                  <Edit className="h-6 w-6 text-primary" />
+                </div>
+                <div>
+                  <h4 className=" text-left font-medium">Last update</h4>
+                  <a className="text-muted-foreground text-sm hover:text-primary transition-colors">
+                    December 20, 2025
                   </a>
                 </div>
               </div>
